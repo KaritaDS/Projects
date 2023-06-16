@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaritaDSDonut</title>
+</head>
+<header class="header">
+<h1>The Doll House Factory</h1>
+<span>
+    Welcome to The Doll House where we make... you guessed it donuts. We have a staff full of little dolls just ready to make your order. So please press the buttons below to get those little hands moving.
+</span>
+</header>
+<nav> 
+    <a href="#Contact Information">Contact Information</a>
+    <a href="#Cookie Clicker">The Inspiration For This Game</a>
+</nav>
+    
+<body>
+
+<section>
+<div id="container">
+
+    <img src="https://i.etsystatic.com/40354259/r/il/116f21/4519736568/il_924xN.4519736568_2v11.jpg">
+    <div class="countBtn"><button>Donuts</button>
+        
+        <div class="countNum">
+        <h2>0</h2>
+        </div>
+        
+        
+        <div class="countsBtn2">
+    <img src="https://i.etsystatic.com/40354259/r/il/817092/4566893435/il_640xN.4566893435_nkgy.jpg">
+    <div class="countsBtn2"><button>More Donuts</button>
+    
+        
+        <div class="countsNum2">
+        <h3>0</h3>
+    </div>
+
+
+
+    <div class="countBtn3">
+    <img src="https://i.etsystatic.com/40354259/r/il/86bdbf/4545671332/il_640xN.4545671332_92n4.jpg">
+    <div class="countBtn3"> <button>Even More Donuts</button>
+    <div class="counterNum3">
+        <h4>0</h4>
+        <button id="clear" type="reset">Restock Order</button>
+
+        
+        <div class="autoClicker">
+
+        <button onclick="addAutoClick()">Buy auto-clicker - Cost: 100 donuts</button>
+
+        <button onclick="autoClick()">Buy multi-auto-clicker - Cost: 110 donuts</button>
+        </div>
+    </div>
+    </section>
+</div>
+
+<section id="Cookie Clicker"></section>
+<section id="Contact Information">
+        <aside class="sidebar">
+<ul>
+    <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>
+    <li>Karita Simmons</li>
+    <li>Buckhead, Atlanta, GA</li>
+    <li>Email: Haileejade012@gmail.com</li>
+    <li>555-555-5555</li>
+    <a href="https://www.linkedin.com/in/karita-simmons-bb2866278" target="_blank"> Linkedin</a>
+    <a href="https://github.com/KaritaDS" target="_blank"> GitHub</a>
+</ul>
+</aside>
+</section>
+<footer class="footer"><p>Copyright &copy;2023</p></footer>  
+<script src="KaritaDSDonut.js"></script>
+
+
+<style>* {
+    line-height: 1.9em;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    grid-area: header;
+    text-align: center;
+    padding: 4em 0;
+    margin-top: 4rem;
+
+}
+
+
+
+
+img {
+    width: 20%;
+    height: auto;
+    border: 1px #327a77ef solid;
+    border-radius: 1.5rem;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+}
+
+button {
+    border:1px #3d3b3b solid; 
+    border-radius: 0.1rem;
+    color: #a80577ef;
+    background: #f6f6fafb;
+    padding: 2px;
+    margin: 6px;
+    text-decoration: #327a77ef underline;
+
+}
+
+
+a {
+    border:1px #327a77ef solid; 
+    border-radius: 0.3rem;
+    color: #a80577ef;
+    background: #f6f6fafb;
+    padding: 4px;
+    margin: 5px;
+    text-decoration: #333 underline;
+    
+}
+
+
+.sidebar {
+    grid-area: footer;
+    padding: 40px;
+    margin: 1px;
+    text-align: left;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    border:1px #327a77ef solid; 
+    border-radius: 0.3rem;
+    color: #a80577ef;
+    background: #fff;
+    padding: 4px;
+    margin: 100px;
+    text-decoration: #333 underline
+}
+
+</style>
+</body>
+</html>
